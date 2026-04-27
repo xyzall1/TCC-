@@ -117,7 +117,7 @@ Evaluasi model dilakukan menggunakan metrik regresi standar:
 
 ## Hasil Evaluasi Linear Regression
 
-```text
+
 Linear Regression Evaluation
 ========================================
 MAE  : 0.9814
@@ -131,4 +131,4 @@ Nilai MSE sebesar 92.3478 dan RMSE sebesar 9.6098 menunjukkan bahwa meskipun mas
 Sementara itu, nilai R² sebesar 0.9912 menunjukkan bahwa model mampu menjelaskan sekitar 99.12% variasi pada target files_changed. Hal ini menunjukkan bahwa hubungan antara fitur-fitur prediktor—terutama insertions, deletions, dan net_change—dengan jumlah file yang berubah sangat kuat dan mampu ditangkap dengan baik oleh model linear.
 
 Secara keseluruhan, hasil ini menunjukkan bahwa model Linear Regression sangat efektif digunakan sebagai baseline model untuk memprediksi jumlah file yang berubah pada commit GitHub. Model mampu menangkap hubungan linear antar fitur dengan sangat baik, menghasilkan performa prediksi yang stabil, akurat, dan dapat diandalkan untuk analisis commit berbasis regresi.
-```
+
