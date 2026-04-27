@@ -117,13 +117,15 @@ Evaluasi model dilakukan menggunakan metrik regresi standar:
 
 ## Hasil Evaluasi Linear Regression
 
-
+```text
 Linear Regression Evaluation
 ========================================
 MAE  : 0.9814
 MSE  : 92.3478
 RMSE : 9.6098
 R²   : 0.9912
+
+```
 Berdasarkan hasil evaluasi, model Linear Regression menunjukkan performa yang sangat baik dalam memprediksi jumlah file yang berubah (files_changed) pada setiap commit. Nilai MAE sebesar 0.9814 menunjukkan bahwa rata-rata kesalahan prediksi model hanya sekitar satu file per commit, sehingga model memiliki tingkat presisi yang tinggi dalam memperkirakan jumlah file yang berubah.
 
 Nilai MSE sebesar 92.3478 dan RMSE sebesar 9.6098 menunjukkan bahwa meskipun masih terdapat beberapa prediksi dengan error yang lebih besar, secara umum tingkat kesalahan model tetap berada dalam batas yang wajar. Perbedaan antara MAE dan RMSE mengindikasikan bahwa terdapat beberapa commit dengan perubahan file yang cukup besar, namun pengaruhnya tidak secara signifikan menurunkan performa model secara keseluruhan.
